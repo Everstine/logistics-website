@@ -1,0 +1,22 @@
+.landing-banner{
+  width: 100%;
+  height: 500px;
+  background-image: url(/assets/pexels-tiger-lily-4484149.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-resolution: from-image 300dpi;
+}
+
+.banner-container1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-heading{
+  font-weight: bolder;
+  color: rgb(235, 155, 5);
+  font-size: 2.4rem;
+  margin-top: 160px;
+}

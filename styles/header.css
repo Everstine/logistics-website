@@ -1,0 +1,92 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-left{
+  display: flex;
+  flex: 2;
+  flex-direction: row;
+  column-gap: 20px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.header-right{
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+.logo{
+  width: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.call{
+  width: 20px;
+}
+.call-icon{
+  display: flex;
+  width: 2.5em;
+  height: 2.5em;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: rgb(184, 184, 183);
+}
+
+.symbol{
+  display: inline-block;
+  transform: rotate(90deg);
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.contact,
+.pricing,
+.projects,
+.about,
+.services,
+.home{
+  cursor: pointer;
+  transition: color 0.15s;
+}
+.home:hover{
+  color: orange;
+}
+
+.contact:hover{
+  color: orange;
+}
+
+.pricing:hover{
+  color: orange;
+}
+
+.projects:hover{
+  color: orange;
+}
+
+.about:hover{
+  color: orange;
+}
+
+.services:hover{
+  color: orange;
+}
+
+.free-call{
+  font-weight: 600;
+}
+
+.number{
+  color: gray;
+}
+
+
+
