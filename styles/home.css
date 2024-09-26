@@ -224,3 +224,94 @@
 .professionals{
   margin-top: 20px;
 }
+
+.mission-statement{
+  display: flex;
+  margin-top: 100px;
+  width: 100%;
+  height: 500px;
+  background-image: url(/assets/Untitled\ design\ \(2\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-resolution: from-image 300dpi;
+}
+
+.mission-pop{
+  margin-top: 100px;
+  margin-left: 500px;
+  width: 600px;
+  height: 400px;
+  background-color: white;
+  text-align: center;
+  font-size: 2.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 2px 4px 10px rgba(128, 128, 128, 0.1);
+}
+
+.who-we-are{
+  display: flex;
+  align-items: center;
+  color: orange;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.message-and-box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.box{
+  display: flex;
+  background-color: rgba(255, 165, 0, 0.5);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.box3{
+    display: flex;
+    background-color: rgba(255, 165, 0, 0.4);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.box4{
+    display: flex;
+    background-color: rgba(255, 165, 0, 0.3);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.box5{
+    display: flex;
+    background-color: rgba(255, 165, 0, 0.2);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.box6{
+    display: flex;
+    background-color: rgba(255, 165, 0, 0.1);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.box-div{
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+}
+
+.message-in-pop{
+  margin-top: 20px;
+}
