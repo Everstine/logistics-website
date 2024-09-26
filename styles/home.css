@@ -1,6 +1,6 @@
 .landing-banner{
   width: 100%;
-  height: 500px;
+  height: 600px;
   background-image: 
   linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
    url(/assets/pexels-tiger-lily-4484149.jpg);
@@ -22,7 +22,7 @@
   font-size: 2.4rem;
   margin-top: 160px;
   line-height: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .welcome{
@@ -30,7 +30,7 @@
   color: white;
   font-size: 0.9rem;
   width: 600px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .buttons-div{
@@ -53,11 +53,13 @@
 }
 
 .banner-container2{
-  margin-top: 100px;
+  margin-top: 140px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-left: 180px;
+  margin-right: 180px;
 }
 
 .card-1{
@@ -87,7 +89,7 @@
 }
 
 .message-1{
-  width: 400px;
+  width: 100%;
 }
 
 .readmore-1{
@@ -119,10 +121,106 @@
 .message-2{
   display: flex;
   color: white;
-  width: 400px;
+  width: 100%;
 }
 
 .readmore-2{
   font-weight: 800;
   color: orange;
+}
+
+.all-about-us{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 230px;
+  margin-left: 180px;
+  margin-right: 180px;
+  column-gap: 20px;
+}
+
+.professionals-logo,
+.mission-logo{
+  width: 40px;
+  fill: orange;
+  filter: invert(62%) sepia(75%) saturate(1555%) hue-rotate(359deg) brightness(102%) contrast(101%);
+}
+
+
+.image-1{
+  width: 80%;
+  margin-left: 110px;
+}
+
+
+.image-2{
+  width: 100%;
+  display: flex;
+  color: white;
+  font-weight: 800;
+  align-items: center;
+  /* flex: 0.5; */
+  margin-top: 10px;
+}
+
+.professionals,
+.our-mission{
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+}
+
+.right-side,
+.left-side{
+  flex: 1;
+}
+
+.down-section{
+  display: flex;
+  flex-direction: row;
+}
+
+.years-of-experience{
+  display: flex;
+  color: white;
+  font-weight: 800;
+  background-color: orange;
+  align-items: center;
+  font-size: 1.3rem;
+  flex: 1;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 40px;
+}
+
+.heading-about{
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: orange;
+  margin-bottom: 30px;
+}
+
+.about1{
+  color: gray;
+  margin-bottom: 30px;
+}
+
+
+.mission-heading{
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.professionals-message,
+.mission-message{
+  color: gray;
+}
+
+.professionals-heading{
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.professionals{
+  margin-top: 20px;
 }
