@@ -43,6 +43,7 @@
   background-color: orange;
   font-weight: 600;
   padding: 15px;
+  cursor: pointer;
 }
 
 .button-2{
@@ -50,6 +51,7 @@
   font-weight: 600;
   padding: 15px;
   color: white;
+  cursor: pointer;
 }
 
 .banner-container2{
@@ -94,6 +96,7 @@
 
 .readmore-1{
   font-weight: 800;
+  cursor: pointer;
 }
 
 .card-2{
@@ -127,6 +130,7 @@
 .readmore-2{
   font-weight: 800;
   color: orange;
+  cursor: pointer;
 }
 
 .all-about-us{
