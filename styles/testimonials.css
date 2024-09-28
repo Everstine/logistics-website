@@ -1,0 +1,125 @@
+.testimonials{
+  height: 500px;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+   url(/assets/pexels-marcin-jozwiak-199600-2797828.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 100px;
+}
+
+.image-for-person{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.testimonials-left{
+  width: 400px;
+  height: 400px;
+  padding: 30px;
+  background-color: white;
+  margin-top: 150px;
+  margin-left: 250px;
+}
+
+.stars{
+  display: flex;
+  flex-direction: row;
+  color: orange;
+  font-size: 20px;
+  column-gap: 5px;
+  margin-left: 140px;
+  margin-bottom: 30px;
+}
+
+.testimonial-message{
+  text-align: center;
+  color: rgba(128, 128,128, 0.7);
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+}
+
+.details-for-person{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.name-of-person{
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.company-name{
+  font-size: 0.7rem;
+  color: rgba(128, 128,128, 0.7);
+}
+
+.data-right{
+  display: flex;
+  flex-direction: column;
+}
+
+.data-down,
+.data-up{
+  display: flex;
+  flex-direction: row;
+}
+
+.number1{
+  color: orange;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.main-box4,
+.main-box3,
+.main-box2,
+.main-box1{
+  padding: 2em;
+  text-align: center;
+}
+
+.main-box3{
+  padding-left: 18.5px;
+}
+.main-box1{
+  /* border: none; */
+  border-style: solid;
+  border-width: 1px;
+  border-right-color: rgba(128, 128,128, 1);
+  border-bottom-color: rgba(128, 128,128, 1);
+  border-top-color: rgba(128, 128,128, 0);
+  border-left-color: rgba(128, 128,128, 0);
+}
+
+.main-box2{
+  border: none;
+  border-style: solid;
+  border-width: 1px;
+  border-right-color: rgba(128, 128,128, 0);
+  border-bottom-color: rgba(128, 128,128, 1);
+  border-top-color: rgba(128, 128,128, 0);
+  border-left-color: rgba(128, 128,128, 0);
+}
+
+.main-box3{
+  border: none;
+  border-style: solid;
+  border-width: 1px;
+  border-right-color: rgba(128, 128,128, 1);
+  border-bottom-color: rgba(128, 128,128, 0);
+  border-top-color: rgba(128, 128,128, 0);
+  border-left-color: rgba(128, 128,128, 0);
+}
+
+.main-detail{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+}
