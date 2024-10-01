@@ -1,0 +1,98 @@
+.bottom-team-contact{
+  display: flex;
+  flex-direction: row;
+}
+
+.message-main-img,
+.team-main{
+  width: 40px;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(211deg) brightness(106%) contrast(104%);
+}
+
+.team-contact-left{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 180px;
+  align-items: center;
+  background-color: orange;
+}
+
+.team-contact-right{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding-right: 180px;
+  align-items: center;
+  background-color: rgb(4, 7, 32);
+}
+
+.team-left{
+  width: 40px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(4, 7, 32);
+}
+
+.team-right{
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.operations-team{
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.more-info{
+  color: white;
+  font-size: 0.9rem;
+}
+
+.find-team{
+  padding: 1em;
+  color: orange;
+  border: none;
+  font-weight: 800;
+  background-color: rgb(4, 7, 32);
+}
+
+.message-contact-left{
+  width: 40px;
+  padding: 10px;
+  background-color: orange;
+}
+
+.message-contact-right{
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  align-items: center;
+  flex: 1;
+}
+
+.call-us-div{
+  color: orange;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.number-div{
+  color: orange;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.number-call-div{
+  color: white;
+  font-size: 0.9rem;
+}

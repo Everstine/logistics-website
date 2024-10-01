@@ -1,6 +1,6 @@
 .footer{
   height: 600px;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   background-image: linear-gradient(rgba(4, 7, 32, 0.9), rgba(4, 7, 32, 0.9)),
   url(/assets/pexels-tomfisk-2221670.jpg);
   background-repeat: no repeat;
@@ -87,14 +87,14 @@
 
 .name{
   width: 100%;
-  padding: 0.7em;
+  padding: 0.8em;
   font-size: 0.7em;
   margin-bottom: 20px;
 }
 
 .email{
   width: 100%;
-  padding: 0.7em;
+  padding: 0.8em;
   font-size: 0.7em;
   margin-bottom: 20px;
 }
@@ -114,4 +114,9 @@
   border: none;
   font-weight: 800;
   background-color: orange;
+}
+
+.map{
+  width: 100%;
+  margin-bottom: 0px;
 }
