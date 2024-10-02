@@ -1,0 +1,147 @@
+.last-footer-section{
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  margin-left: 180px;
+  margin-right: 180px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.left-footer-section{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  row-gap: 15px;
+}
+
+.middle-footer-section{
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+}
+
+.right-footer-section{
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+}
+
+.company-logo-footer{
+  width: 100px;
+}
+
+.last-footer-message{
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.last-footer-contact{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.call-icon-footer{
+  width: 40px;
+  filter: brightness(0) saturate(100%) invert(63%) sepia(46%) saturate(3004%) hue-rotate(2deg) brightness(108%) contrast(103%);
+}
+
+.last-footer-main-contact{
+  font-size: 1.5rem;
+}
+
+.socials-links-div{
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.youtube,
+.twitter,
+.instagram,
+.facebook{
+  width: 20px;
+  filter: brightness(0) saturate(100%) invert(63%) sepia(46%) saturate(3004%) hue-rotate(2deg) brightness(108%) contrast(103%);
+  /* fill: white;
+  background-color: filter: brightness(0) saturate(100%) invert(96%) sepia(99%) saturate(2%) hue-rotate(250deg) brightness(110%) contrast(100%);*/
+}
+
+.link4,
+.link3,
+.link2,
+.link1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border: solid;
+  border-width: 1px;
+  border-color: orange;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.quick-links{
+  font-weight: 800;
+  color: orange;
+  margin-bottom: 25px;
+}
+
+.the-links{
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+}
+
+.arrow{
+  color: orange;
+  font-weight: 800;
+  font-size: 0.8rem;
+}
+
+.the-link6,
+.the-link5,
+.the-link4,
+.the-link3,
+.the-link2,
+.the-link1{
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.contact-info-links{
+  font-weight: 800;
+  color: orange;
+  margin-bottom: 35px;
+}
+
+
+.info-link4,
+.info-link3,
+.info-link2,
+.info-link1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 25px;
+  margin-bottom: 20px;
+}
+
+.clock-link-logo,
+.website-link-logo,
+.call-link-logo,
+.location-link-logo{
+  width: 30px;
+  filter: brightness(0) saturate(100%) invert(63%) sepia(46%) saturate(3004%) hue-rotate(2deg) brightness(108%) contrast(103%);
+}
+
+.time-link,
+.website-link,
+.call-link-other,
+.location-link{
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.6);
+}
