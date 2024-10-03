@@ -65,6 +65,7 @@
   filter: brightness(0) saturate(100%) invert(63%) sepia(46%) saturate(3004%) hue-rotate(2deg) brightness(108%) contrast(103%);
   /* fill: white;
   background-color: filter: brightness(0) saturate(100%) invert(96%) sepia(99%) saturate(2%) hue-rotate(250deg) brightness(110%) contrast(100%);*/
+  cursor: pointer;
 }
 
 .link4,
@@ -97,7 +98,7 @@
 }
 
 .arrow{
-  color: orange;
+  color: rgba(255, 165, 0, 0);
   font-weight: 800;
   font-size: 0.8rem;
 }
@@ -110,6 +111,7 @@
 .the-link1{
   font-size: 0.9rem;
   color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
 }
 
 .contact-info-links{
@@ -144,4 +146,5 @@
 .location-link{
   font-size: 0.9rem;
   color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
 }
